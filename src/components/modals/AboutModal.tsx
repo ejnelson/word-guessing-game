@@ -9,13 +9,13 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="About" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        This is an open source word guessing game -{' '}
+        This is the Degen DAOO version of the popular game 'wordle'. <br/>
         <a
-          href="https://github.com/hannahcode/GAME"
+          href="https://twitter.com/DegenDAOO"
           className="underline font-bold"
         >
-          check out the code here
-        </a>{' '}
+          check out the Degen DAOO twitter here
+        </a>
       </p>
     </BaseModal>
   )

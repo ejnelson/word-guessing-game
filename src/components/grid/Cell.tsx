@@ -15,8 +15,8 @@ export const Cell = ({ value, status }: Props) => {
       'border-black dark:border-slate-100': value && !status,
       'bg-slate-400 dark:bg-slate-700 text-white border-slate-400 dark:border-slate-700':
         status === 'absent',
-      'bg-blue-500 text-white border-blue-500': status === 'correct',
-      'bg-orange-500 dark:bg-orange-700 text-white border-orange-500 dark:border-orange-700':
+      'bg-purple-500 text-white border-purple-500': status === 'correct',
+      'bg-teal-500 dark:bg-teal-700 text-white border-teal-500 dark:border-teal-700':
         status === 'present',
       'cell-animation': !!value,
     }
